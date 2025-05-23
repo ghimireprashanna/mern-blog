@@ -24,7 +24,7 @@ const Header = () => {
                 <FaMoon />
             </Button>
             <Link to={'/signin'}>
-                <Button className="bg-gradient-to-br from-purple-600 to-blue-500 text-white hover:bg-gradient-to-bl focus:ring-blue-300 dark:focus:ring-blue-800">SignIn</Button>
+                <Button className="hover:bg-gradient-to-br from-purple-600 to-blue-500 text-white " outline>SignIn</Button>
             </Link>
             <NavbarToggle/>
         </div>
